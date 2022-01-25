@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Images/Ceyhan2017.jpeg'; // Tell webpack this JS file uses this image
+import logo from '../Images/Ceyhan2017-removebg.png'; // Tell webpack this JS file uses this image
 import Markdown from 'markdown-to-jsx';
 
 
