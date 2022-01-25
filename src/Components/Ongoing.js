@@ -75,14 +75,14 @@ class Relationship extends React.Component {
                     <Markdown children={this.state.md} />   
                 </div>
                 <div className="force_center " >
-                    <a className="arrow-icon" id="more" onClick={() => this.toggleView()}>
+                    <button className="arrow-icon force_transparent" id="more" onClick={() => this.toggleView()}>
                         <div className={this.state.onshow ? "open" : null} >
                             {/* Show relationship development progress */}
                             <span className="left-bar"></span>
                             <span className="right-bar"></span>
                         </div> 
                         
-                    </a> 
+                    </button> 
                     <div className="arrow_right_text">
                     {this.state.text} Relationship
                     </div>
@@ -187,14 +187,14 @@ class Chronology extends React.Component {
             <Chronologymd />
             <div className="nowrapper">
                 <div className="force_center " >
-                    <a className="arrow-icon" id="more" onClick={() => this.toggleView()}>
+                    <button className="arrow-icon  force_transparent" id="more" onClick={() => this.toggleView()}>
                         <div className={this.state.onshow ? "open" : null} >
                             {/* Show relationship development progress */}
                             <span className="left-bar"></span>
                             <span className="right-bar"></span>
                         </div> 
                         
-                    </a> 
+                    </button> 
                     <div className="arrow_right_text">
                         {this.state.text} Chronology 1
                     </div>
@@ -206,13 +206,13 @@ class Chronology extends React.Component {
             </div>    
             <div className="nowrapper">
                 <div className="force_center " >
-                    <a className="arrow-icon" id="more" onClick={() => this.toggleView2019()}>
+                    <button className="arrow-icon  force_transparent" id="more" onClick={() => this.toggleView2019()}>
                         <div className={this.state.onshow2019 ? "open" : null} >
                         {/* Show relationship development progress */}
                         <span className="left-bar"></span>
                         <span className="right-bar"></span>
                         </div>                        
-                    </a>  
+                    </button>  
                     <div className="arrow_right_text">
                         {this.state.text2019} Chronology 2
                     </div>

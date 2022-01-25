@@ -11,6 +11,11 @@ import Setupenv from "./Setup";
 import Ongoing  from "./Ongoing";
 import Knowledge from "./knowledge";
 import Footer from './footer';
+import Headerlogo from "./Logo";
+import Cvresume from "./Cvresume";
+import Researchinterests from "./Researchinterests";
+
+
 
 
 /*
@@ -27,12 +32,21 @@ class App extends React.Component {
     render() {
 
         return (
+          
           <div>
-            <Togglebk />
+            <div><Togglebk />
+              <Headerlogo />
+            </div>
+        
+            <div>
+              <Cvresume />
+            </div>
+            <div>
+              <Researchinterests />
+            </div>
+            
 
             <div>                
-                <Header username="this is the development of George Eliot Programs"/>
-                <Greeting />
                 <Background />
                 <Showmain />
                 <Footer />
@@ -45,59 +59,17 @@ class App extends React.Component {
 }
 
 // #2
-class Header extends React.Component {
+// class Header extends React.Component {
    
-    render() {
-        return (
-            <header>
-                <p>Welcome, {this.props.username}!</p>
-            </header>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <header>
+//                 <p>Welcome, {this.props.username}!</p>
+//             </header>
+//         )
+//     }
+// }
 
-// #3
-// Hint: any "display logic" can be placed inside the `render`
-// method before the `return` statement
-class Greeting extends React.Component {
-
-  state = {
-    timeOfDay: this.setTime(),
-    showTime: false
-  }
-
-  setTime(){
-  
-    var date = new Date()
-    var hours = date.getHours()
-    var t = ""
-    // console.log(date.getHours())
-    if (hours < 12) {  t = "Morning" }
-    else if (hours >= 12 && hours < 17) { t = "Afternoon"}
-    else {t = "Evening"}
-
-    return t
-  }
-
-  toggleTime = () => {
-    this.setState(prevState => {
-        return {
-            showTime: prevState.showTime === true ? false : true
-        }
-    })
-}
-
-  render() {
-    const Text = () => <div>{Date().toLocaleString()}</div>;
-    return (      
-      <div>
-        <h1>Good {this.state.timeOfDay} to you, sir or madam!</h1>      
-        <h2 className = 'button_main button_border' id="more" onClick={this.toggleTime}> {this.state.showTime ? "Hide time" : "What Time is it now" }</h2>  
-        <h2 className="timedate">{this.state.showTime ? <Text /> : null} </h2>
-      </div>
-    )
-  }
-}
 
 
 // #3

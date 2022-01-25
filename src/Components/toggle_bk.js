@@ -5,7 +5,7 @@ import { setTheme } from  '../Utils/themes'
 export default class Togglebk extends React.Component {
     constructor(props) {
         super(props)
-        this.state = { togClass: 'dark' }
+        this.state = { togClass: 'light' }
     }
     
     
@@ -22,8 +22,8 @@ export default class Togglebk extends React.Component {
 
     componentDidMount (){
 
-        this.state.togClass = 'dark';
-        setTheme('theme-dark');
+        // this.state.togClass = 'light';
+        setTheme('theme-light');
         
    
 
@@ -45,13 +45,14 @@ export default class Togglebk extends React.Component {
 
     render(){
         return (                    
-            <div className="container--toggle">
+            <div className='container_toggle'>
                 <input type="checkbox" className="checkbox" id="checkbox" onClick={this.setTogClass}/>
                 <label htmlFor="checkbox" className="label">
                     {/* <i class="fa-moon"></i>
                     <i class='fa-sun'></i> */}
                     <div className='ball' />
                 </label>
+               
    
  
             </div>
