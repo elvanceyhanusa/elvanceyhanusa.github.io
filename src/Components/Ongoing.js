@@ -14,7 +14,7 @@ class Relationshipdev extends React.Component {
             <div className="wrapper" >
                 <div class="h_iframe">                                 
                     <iframe  scrolling="yes" title="relationship" 
-                        src="https://georgeeliotarchive.github.io/relationship/" />                     
+                        src="../lists/Teaching.html" />                     
                 </div>
             </div>
         )
