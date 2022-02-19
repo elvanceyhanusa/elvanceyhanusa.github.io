@@ -1,36 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9be8dd5.css",
-    "main.js": "/static/js/main.be03f3af.js",
-    "static/js/530.8b9e8711.chunk.js": "/static/js/530.8b9e8711.chunk.js",
-    "static/js/513.a735252a.chunk.js": "/static/js/513.a735252a.chunk.js",
-    "static/js/137.1a9c1d39.chunk.js": "/static/js/137.1a9c1d39.chunk.js",
-    "static/js/997.d0d44115.chunk.js": "/static/js/997.d0d44115.chunk.js",
-    "static/js/820.14073812.chunk.js": "/static/js/820.14073812.chunk.js",
-    "static/js/178.4620e352.chunk.js": "/static/js/178.4620e352.chunk.js",
-    "static/js/66.fbce09ac.chunk.js": "/static/js/66.fbce09ac.chunk.js",
-    "static/js/787.804f032f.chunk.js": "/static/js/787.804f032f.chunk.js",
-    "static/media/Ceyhan2017-removebg.png": "/static/media/Ceyhan2017-removebg.0020fa37586c7e701bb7.png",
-    "static/media/CeyhanCV.pdf": "/static/media/CeyhanCV.8fec643b6af2ba5b5d14.pdf",
-    "static/media/CeyhanResume.pdf": "/static/media/CeyhanResume.b5ee047d66212514a138.pdf",
-    "static/media/logo_archive.jpg": "/static/media/logo_archive.4e325b3ec0bb73a928ac.jpg",
-    "static/media/logo_nebraska.jpg": "/static/media/logo_nebraska.0ca2cacad23d2c376357.jpg",
-    "static/media/logo_auhorizontal.png": "/static/media/logo_auhorizontal.c2ea09a73c2adb1112ee.png",
-    "static/media/bio.md": "/static/media/bio.ce7144ba689c190039fe.md",
-    "static/media/setup.md": "/static/media/setup.8ef5c6413830ed82bdc9.md",
-    "static/media/dev_chronology.md": "/static/media/dev_chronology.60ea3dde3ddb4c98a68e.md",
-    "static/media/knowledge.md": "/static/media/knowledge.66bd1527270fc9d3b426.md",
-    "static/media/dev_relationship.md": "/static/media/dev_relationship.b66a39ed9be55df7010e.md",
+    "main.css": "/static/css/main.d58e7561.css",
+    "main.js": "/static/js/main.5405a056.js",
+    "static/js/787.a0289df6.chunk.js": "/static/js/787.a0289df6.chunk.js",
     "index.html": "/index.html",
-    "static/media/contact.md": "/static/media/contact.a5fdd695791726bc491c.md",
-    "static/media/research_interests.md": "/static/media/research_interests.bf9193fee09662b81a64.md",
-    "static/media/ongoing.md": "/static/media/ongoing.a8cd8fc4015213e04af0.md",
-    "main.d9be8dd5.css.map": "/static/css/main.d9be8dd5.css.map",
-    "main.be03f3af.js.map": "/static/js/main.be03f3af.js.map",
-    "787.804f032f.chunk.js.map": "/static/js/787.804f032f.chunk.js.map"
+    "main.d58e7561.css.map": "/static/css/main.d58e7561.css.map",
+    "main.5405a056.js.map": "/static/js/main.5405a056.js.map",
+    "787.a0289df6.chunk.js.map": "/static/js/787.a0289df6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9be8dd5.css",
-    "static/js/main.be03f3af.js"
+    "static/css/main.d58e7561.css",
+    "static/js/main.5405a056.js"
   ]
 }
