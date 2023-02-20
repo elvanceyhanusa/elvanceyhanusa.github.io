@@ -22,11 +22,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I like building things. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a>{" "}
-        graduate, YC Alumni, and the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I
-        was at <a href="https://matroid.com">Matroid</a>, <a href="https://planet.com">Planet</a>,{" "}
-        <a href="https://planetaryresources.com">Planetary Resources</a>, <a href="https://facebook.com">Facebook</a>,
-        and <a href="https://seds.org">SEDS</a>.
+        Hi, I&apos;m <b>Elvan Ceyhan</b>. Experienced Research Associate Professor with a demonstrated history of
+        working in the research industry. Skilled in Statistics, Research, Mathematical Modeling, R Software, LaTeX, and
+        Data Analysis. Strong community and social services professional with a Doctor of Philosophy (PhD) focused in
+        Applied Mathematics and Statistics from The Johns Hopkins University.
       </p>
       <ul className="actions">
         <li>
