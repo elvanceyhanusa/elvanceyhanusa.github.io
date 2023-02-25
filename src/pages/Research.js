@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 import Main from "../layouts/Main";
 
 import Interest from "../components/Research/Interest";
-import Experience from "../components/Resume/Experience";
+import Honor from "../components/Research/Honor";
 import Skills from "../components/Resume/Skills";
 import Courses from "../components/Resume/Courses";
 import References from "../components/Resume/References";
 
 import courses from "../data/resume/courses";
 import interest from "../data/research/interest";
-import positions from "../data/resume/positions";
+import honor from "../data/research/honor";
 import { skills, categories } from "../data/resume/skills";
 
-const sections = ["Interest", "Experience", "Skills", "Courses", "References"];
+const sections = ["Interest", "Honor", "Skills", "Courses", "References"];
 
 const Research = () => (
   <Main title="Research" description="Elvan Ceyhan's Research">
@@ -34,7 +34,7 @@ const Research = () => (
         </div>
       </header>
       <Interest data={interest} />
-      <Experience data={positions} />
+      <Honor data={honor} />
       <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
       <References />
