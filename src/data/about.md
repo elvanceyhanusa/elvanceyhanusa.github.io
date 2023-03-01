@@ -1,6 +1,4 @@
-# Elvan Ceyhan
-
-(last name pronounced as "Jay-han")
+# Elvan Ceyhan (last name pronounced as "Jay-han")
 
 - Department of Mathematics and Statistics, Auburn University
 

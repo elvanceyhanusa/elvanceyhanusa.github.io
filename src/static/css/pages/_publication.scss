@@ -1,0 +1,55 @@
+/* publication */
+
+#publication {
+  .link-to {
+    position: relative;
+    top: -4.5em;
+  }
+
+  .link-container h4 {
+    text-decoration: none;
+    border-bottom: none;
+    display: inline-flex;
+
+    a {
+      padding: 0 0.5em;
+      margin: 0;
+    }
+  }
+
+  .publication-container {
+    margin-bottom: 0.5em;
+    h3 {
+      font-weight: normal;
+    }
+
+    .selected {
+      .title {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 2em;
+      }
+      .sub_title {
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-transform: capitalize;
+        padding-top: 0.3em;
+      }
+    }
+  }
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  @include breakpoint(small) {
+    .course-dot {
+      display: none;
+    }
+    .course-container a {
+      display: block;
+    }
+  }
+}

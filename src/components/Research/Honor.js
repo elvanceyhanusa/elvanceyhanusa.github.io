@@ -9,11 +9,11 @@ const Honor = ({ data }) => (
     <div className="title">
       <h3>Honor and Awards</h3>
     </div>
-    <ul>
+    <ol>
       {data.map((honor) => (
         <HonorItem data={honor} key={honor.title} />
       ))}
-    </ul>
+    </ol>
   </div>
 );
 

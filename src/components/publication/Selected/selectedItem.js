@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const HonorItem = ({ data }) => (
-  <article className="interest-container">
-    <li className="honor">{data.title}</li>
+const SelectedItem = ({ data }) => (
+  <article className="publication-container">
+    <li className="selected">{data.title}</li>
   </article>
 );
 
-HonorItem.propTypes = {
+SelectedItem.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     sub_title: PropTypes.string.isRequired,
   }).isRequired,
 };
 
-export default HonorItem;
+export default SelectedItem;

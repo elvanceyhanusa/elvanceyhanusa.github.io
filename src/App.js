@@ -3,6 +3,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Main from "./layouts/Main"; // fallback for lazy pages
 import "./static/css/main.scss"; // All of our styles
 
+
+
 const { PUBLIC_URL } = process.env;
 
 // Every route - we lazy load so that each page can be chunked
@@ -15,6 +17,7 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Resume = lazy(() => import("./pages/Resume"));
 const Research = lazy(() => import("./pages/Research"));
+const Publication = lazy(() => import("./pages/Publication"));
 const Stats = lazy(() => import("./pages/Stats"));
 
 const App = () => (
@@ -27,11 +30,13 @@ const App = () => (
         <Route path="/stats" component={Stats} />
         <Route path="/contact" component={Contact} />
         <Route path="/research" component={Research} />
+        <Route path="/publication" component={Publication} />
         <Route path="/resume" component={Resume} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
   </BrowserRouter>
+  
 );
 
 export default App;

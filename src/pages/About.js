@@ -4,6 +4,8 @@ import ReactMarkdown from "react-markdown";
 import raw from "raw.macro";
 
 import Main from "../layouts/Main";
+import Selected from "../components/publication/Selected";
+import selected from "../data/publication/selected";
 
 // uses babel to load contents of file
 const markdown = raw("../data/about.md");
@@ -24,7 +26,7 @@ const About = () => (
           <h2 data-testid="heading">
             <Link to="/about">About Me</Link>
           </h2>
-          <p>(in about {count} words)</p>
+          {/* <p>(in about {count} words)</p> */}
         </div>
       </header>
       <ReactMarkdown
@@ -34,6 +36,7 @@ const About = () => (
         }}
         escapeHtml={false}
       />
+      <Selected data={selected} />
     </article>
   </Main>
 );

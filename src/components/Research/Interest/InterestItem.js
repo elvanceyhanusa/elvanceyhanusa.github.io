@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 const InterestItem = ({ data }) => (
   <article className="interest-container">
-    <header>
-      <h4 className="interest">{data.title}</h4>
+    <li className="interest">
+      {data.title}
       <div className="sub_title">{data.sub_title}</div>
-    </header>
+    </li>
   </article>
 );
 
