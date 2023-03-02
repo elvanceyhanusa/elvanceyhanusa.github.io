@@ -3,18 +3,14 @@ import { Link } from "react-router-dom";
 
 import Main from "../layouts/Main";
 
-import Interest from "../components/Research/Interest";
-
-import References from "../components/Resume/References";
-
 import Selected from "../components/publication/Selected";
 
 import selected from "../data/publication/selected";
-import interest from "../data/research/interest";
 
+import Paper from "../components/publication/Paper";
+import paper from "../data/publication/paper";
 
-
-const sections = ["Selected", "Interest", "References"];
+const sections = ["Selected", "Paper"];
 
 const Publication = () => (
   <Main title="Publication" description="Elvan Ceyhan's Publication">
@@ -33,9 +29,9 @@ const Publication = () => (
           </div>
         </div>
       </header>
-      <Interest data={interest}></Interest>
+
       <Selected data={selected}></Selected>
-      <References />
+      <Paper data={paper}></Paper>
     </article>
   </Main>
 );
