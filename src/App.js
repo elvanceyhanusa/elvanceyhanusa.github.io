@@ -28,7 +28,7 @@ const App = () => (
         <Route path="/about" component={About} />
         {/* <Route path="/projects" component={Projects} /> */}
         {/* <Route path="/stats" component={Stats} /> */}
-        <Route path="/contact" component={Contact} />
+        {/* <Route path="/contact" component={Contact} /> */}
         <Route path="/research" component={Research} />
         <Route path="/service" component={Service} />
         <Route path="/publication" component={Publication} />
