@@ -16,18 +16,22 @@ const routes = [
     label: "Resume",
     path: "/resume",
   },
+  // {
+  //   label: "Projects",
+  //   path: "/projects",
+  // },
   {
-    label: "Projects",
-    path: "/projects",
+    label: "Service",
+    path: "/service",
   },
   {
     label: "Publication",
     path: "/publication",
   },
-  {
-    label: "Stats",
-    path: "/stats",
-  },
+  // {
+  //   label: "Stats",
+  //   path: "/stats",
+  // },
   {
     label: "Contact",
     path: "/contact",

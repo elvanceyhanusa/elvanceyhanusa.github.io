@@ -6,7 +6,7 @@
     top: -4.5em;
   }
 
-  .link-container h4 {
+  .publication-container h4 {
     text-decoration: none;
     border-bottom: none;
     display: inline-flex;
@@ -16,48 +16,58 @@
       margin: 0;
     }
   }
+  .selected {
+    .title {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    .sub_title {
+      font-family: "Lucida Console", "Courier New", monospace;
+      text-transform: capitalize;
+      padding-top: 0.3em;
+    }
+  }
+  .paper {
+    .level {
+      margin-right: 8px;
+    }
+    .title {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    .ptitle {
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+    }
+    .link {
+      margin-left: 10px;
+      font-family: Verdana;
+      text-transform: capitalize;
+      padding-top: 0.3em;
+    }
+  }
+  .misc {
+    .title {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
 
   .publication-container {
-    margin-bottom: 0.5em;
     h3 {
       font-weight: normal;
     }
-
-    .selected {
-      .title {
-        font-family: "Times New Roman", Times, serif;
-        font-weight: 800;
-        text-align: center;
-        margin-bottom: 2em;
-      }
-      .sub_title {
-        font-family: "Lucida Console", "Courier New", monospace;
-        text-transform: capitalize;
-        padding-top: 0.3em;
-      }
-    }
-
-    .paper {
-      .level {
-        margin-right: 8px;
-      }
-      .ptitle {
-        font-family: "Times New Roman", Times, serif;
-      }
-      .link {
-        margin-left: 10px;
-        font-family: Verdana;
-        text-transform: capitalize;
-        padding-top: 0.3em;
-      }
-    }
   }
-  .title {
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 2em;
-  }
+  // .title {
+  //   font-family: "Times New Roman", Times, serif;
+  //   font-weight: 800;
+  //   text-align: center;
+  // }
 
   @include breakpoint(small) {
     .course-dot {

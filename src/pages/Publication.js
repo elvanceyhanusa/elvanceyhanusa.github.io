@@ -10,7 +10,10 @@ import selected from "../data/publication/selected";
 import Paper from "../components/publication/Paper";
 import paper from "../data/publication/paper";
 
-const sections = ["Selected", "Paper"];
+import misc from "../data/publication/misc";
+import Misc from "../components/publication/Misc";
+
+const sections = ["Selected", "Paper", "Misc"];
 
 const Publication = () => (
   <Main title="Publication" description="Elvan Ceyhan's Publication">
@@ -20,7 +23,7 @@ const Publication = () => (
           <h2 data-testid="heading">
             <Link to="publication">Publication</Link>
           </h2>
-          <div className="link-container">
+          <div className="publication-container">
             {sections.map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
@@ -32,6 +35,7 @@ const Publication = () => (
 
       <Selected data={selected}></Selected>
       <Paper data={paper}></Paper>
+      <Misc data={misc}></Misc>
     </article>
   </Main>
 );
