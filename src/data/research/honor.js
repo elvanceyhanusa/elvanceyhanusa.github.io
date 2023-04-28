@@ -49,6 +49,10 @@ const honor = [
     title: " Member, Phi Kappa Phi Honor Society, 1999 - Present",
     sub_title: "",
   },
+  {
+    title: "Abel Wolman Fellowship, Johns Hopkins University, 2000 - 2001.",
+    sub_title: "",
+  },
 ];
 
 export default honor;

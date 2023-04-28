@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import MiscItem from "./Misc/miscItem";
 
 import { FileText } from "react-feather";
-import { Slack } from "react-feather";
 
 const Misc = ({ data }) => (
   <div className="misc">

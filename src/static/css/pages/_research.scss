@@ -38,6 +38,24 @@
     }
   }
 
+  .funding {
+    .org {
+      color: green;
+    }
+    .title {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    .amount {
+      font-weight: bold;
+      color: red;
+    }
+    .duration {
+      color: black;
+      font-style: oblique;
+    }
+  }
+
   .jobs-container {
     .points {
       li {

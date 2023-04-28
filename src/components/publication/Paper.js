@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 
 import PaperItem, { picon } from "./Paper/paperItem";
 
-import { FileText } from "react-feather";
-import { Slack } from "react-feather";
+import { FileText, Slack } from "react-feather";
 
 const Paper = ({ data }) => (
   <div className="paper">

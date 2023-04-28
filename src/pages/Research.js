@@ -5,16 +5,13 @@ import Main from "../layouts/Main";
 
 import Interest from "../components/Research/Interest";
 import Honor from "../components/Research/Honor";
-import Skills from "../components/Resume/Skills";
-import Courses from "../components/Resume/Courses";
-import References from "../components/Resume/References";
+import Funding from "../components/Research/funding";
 
-import courses from "../data/resume/courses";
 import interest from "../data/research/interest";
 import honor from "../data/research/honor";
-import { skills, categories } from "../data/resume/skills";
+import funding from "../data/research/funding";
 
-const sections = ["Interest", "Honor", "Skills", "Courses", "References"];
+const sections = ["Interest", "Honor", "Funding"];
 
 const Research = () => (
   <Main title="Research" description="Elvan Ceyhan's Research">
@@ -34,10 +31,8 @@ const Research = () => (
         </div>
       </header>
       <Interest data={interest} />
+      <Funding data={funding} />
       <Honor data={honor} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References />
     </article>
   </Main>
 );
