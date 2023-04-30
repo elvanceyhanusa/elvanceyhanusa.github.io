@@ -1,0 +1,132 @@
+/* Resume */
+
+#service {
+  .link-to {
+    position: relative;
+    top: -4.5em;
+  }
+
+  .link-container h4 {
+    text-decoration: none;
+    border-bottom: none;
+    display: inline-flex;
+
+    a {
+      padding: 0 0.5em;
+      margin: 0;
+    }
+  }
+
+  .student {
+    .name {
+      color: green;
+    }
+    .title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+    }
+    .graduated {
+      font-weight: normal;
+      color: blueviolet;
+    }
+    .current {
+      font-weight: normal;
+      color: #1e45e2;
+    }
+    .duration {
+      color: red;
+      font-style: oblique;
+    }
+  }
+
+  .editorial {
+    .name {
+      color: green;
+    }
+    .title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+    }
+    .duration {
+      font-weight: normal;
+      color: red;
+    }
+  }
+  .professional {
+    .title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+    }
+    .duration {
+      font-weight: normal;
+      color: green;
+    }
+  }
+  .organizational {
+    .name {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+      color: blue;
+    }
+    .title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+    }
+    .duration {
+      font-weight: normal;
+      color: green;
+    }
+  }
+  .refereeing {
+    .title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+    }
+    .date {
+      font-weight: normal;
+      color: green;
+    }
+    .type {
+      font-weight: normal;
+      color: blue;
+    }
+    .Review {
+      font-weight: normal;
+      color: red;
+    }
+    .Journal {
+      font-weight: lighter;
+      font-style: italic;
+    }
+  }
+  .membership {
+    .title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2em;
+    }
+    .date {
+      font-weight: normal;
+      color: green;
+    }
+  }
+
+  .daterange {
+    margin-bottom: 0.2em;
+  }
+
+  @include breakpoint(small) {
+    .course-dot {
+      display: none;
+    }
+    .course-container a {
+      display: block;
+    }
+  }
+}

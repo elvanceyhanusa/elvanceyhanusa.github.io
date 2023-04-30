@@ -30,6 +30,7 @@ const Research = () => (
           </div>
         </div>
       </header>
+
       <Interest data={interest} />
       <Funding data={funding} />
       <Honor data={honor} />

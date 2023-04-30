@@ -3,26 +3,29 @@ import { Link } from "react-router-dom";
 
 import Main from "../layouts/Main";
 
-import Interest from "../components/Research/Interest";
-import Honor from "../components/Research/Honor";
-import Skills from "../components/Resume/Skills";
-import Courses from "../components/Resume/Courses";
-import References from "../components/Resume/References";
+import Student from "../components/Service/Student";
+import Editorial from "../components/Service/Editorial";
+import Professional from "../components/Service/Professional";
+import Organizational from "../components/Service/Organizational";
+import Refereeing from "../components/Service/Refereeing";
+import Membership from "../components/Service/Membership";
 
-import courses from "../data/resume/courses";
-import interest from "../data/research/interest";
-import honor from "../data/research/honor";
-import { skills, categories } from "../data/resume/skills";
+import student from "../data/service/student";
+import editorial from "../data/service/editorial";
+import professional from "../data/service/professional";
+import organizational from "../data/service/organizational";
+import refereeing from "../data/service/refereeing";
+import membership from "../data/service/membership";
 
-const sections = ["Interest", "Honor", "Skills", "Courses", "References"];
+const sections = ["Student", "Editorial", "Professional", "Organizational", "Refereeing"];
 
 const Service = () => (
   <Main title="Service" description="Elvan Ceyhan's Service">
-    <article className="post" id="research">
+    <article className="post" id="service">
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <Link to="research">Service</Link>
+            <Link to="service">Service</Link>
           </h2>
           <div className="link-container">
             {sections.map((sec) => (
@@ -33,11 +36,12 @@ const Service = () => (
           </div>
         </div>
       </header>
-      <Interest data={interest} />
-      <Honor data={honor} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References />
+      <Student data={student} />
+      <Editorial data={editorial} />
+      <Professional data={professional} />
+      <Organizational data={organizational} />
+      <Refereeing data={refereeing} />
+      <Membership data={membership} />
     </article>
   </Main>
 );
