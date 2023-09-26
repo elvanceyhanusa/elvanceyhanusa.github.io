@@ -12,7 +12,7 @@ export const picon = {
 function showLink(dlink) {
   if (dlink) {
     return (
-      <Link to={{ pathname: dlink.link }} target="_blank">
+      <Link to={{ pathname: dlink }} target="_blank">
         <Download color="green" size={16} />
       </Link>
     );
